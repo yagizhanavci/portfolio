@@ -13,13 +13,14 @@ const App = () => {
 
     const { location } = useContext(__RouterContext);
     const transitions = useTransition(location, location => location.pathname,{
-      from:{opacity:0,transform:"translate(100%,0)"},
-      enter:{opacity:1,transform:"translate(0%,0)"},
-      leave:{opacity:0,transform:"translate(-50%,0)"}
+      from:{opacity:0,display:"none",transition:"all 0.3s linear"},
+      enter:{opacity:1,display:"block"},
+      leave:{opacity:0,display:"none"}
     })
     return (
         <div className="App">
         <Navbar/>
+        <div className="bg"></div>
         {transitions.map(({item,props,key}) => {
           return(
             <animated.div key={key} style={props}>

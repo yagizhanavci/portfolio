@@ -4,7 +4,6 @@ import avatar from '../images/Avatar.png';
 const Home = () => {
     return(
         <div className="content">      
-            <div className="bg"></div>
             <div className="home page">
                 <img className="avatar-img" src={avatar} alt="avatar"/>
                 <div className="about-me">
