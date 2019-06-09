@@ -5,7 +5,9 @@
   "dependencies": {
     "@nomoreanalog/react-scripts-eslintless": "2.1.10",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.1",
+    "react-spring": "^8.0.23"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -20,6 +22,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.9.0",
     "babel-plugin-styled-components": "^1.10.0"
   }
 }

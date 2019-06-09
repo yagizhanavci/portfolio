@@ -69,17 +69,15 @@
     background-color: crimson;
     transition: width 0.3s linear;
     z-index:-1;
-    transform: rotate(10deg);
+    transform: rotate(8deg);
 }
 
-
-.navbar .nav-menu li a:hover::before{
+.navbar .nav-menu li a.active::before{
     width: 90%;
 }
-
-.navbar .nav-menu li:last-child a::before{
+/*.navbar .nav-menu li a:hover::before{
     width: 90%;
-}
+}*/
 
 .content{
     width: 100%;
@@ -96,4 +94,59 @@
     position: absolute;
     background-color: coral;
     z-index: -1;
+}
+
+.page{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}   
+
+.avatar-img{
+    width: 450px;
+    height: 450px;
+    margin-right: 50px;
+}
+
+.about-me{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me-title{
+    font-size: 40px;
+}
+
+.about-me-content{
+    max-width: 520px;
+    text-align: left;
+    text-indent: 10px;
+}
+
+.my-skills{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.my-skills li{
+    margin-right: 35px;
+}
+
+.my-skills i{
+    font-size: 55px;
 }
