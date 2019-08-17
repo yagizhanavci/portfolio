@@ -2,7 +2,7 @@
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Yagizhan14.github.io/portfolio",
+  "homepage": "https://yagizhan14.github.io/portfolio",
   "dependencies": {
     "@nomoreanalog/react-scripts-eslintless": "2.1.10",
     "react": "^16.8.6",
