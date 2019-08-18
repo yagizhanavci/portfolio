@@ -18,7 +18,6 @@ const App = () => {
   return (
     <div className='App'>
       <Navbar />
-      <div className='bg' />
       {transitions.map(({ item, props, key }) => {
         return (
           <animated.div key={key} style={props}>
@@ -27,7 +26,7 @@ const App = () => {
               <Route exact path='/resume' component={Resume} />
               <Route exact path='/projects' component={Projects} />
               <Route exact path='/contact' component={Contact} />
-              <Redirect from='*' to='/' />
+              <Redirect from='*' exact to='/' />
             </Switch>
           </animated.div>
         );

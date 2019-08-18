@@ -4,7 +4,7 @@ import avatar from '../images/Avatar.png';
 const Home = () => {
   return (
     <div className='content'>
-      <div className='home page'>
+      <div className='home'>
         <img className='avatar-img' src={avatar} alt='avatar' />
         <div className='about-me'>
           <h1 className='about-me-title'>
@@ -38,7 +38,7 @@ const Home = () => {
               <span className='skill-name'>React JS</span>
             </li>
             <li>
-              <i class='fab fa-node' />
+              <i className='fab fa-node' />
               <br />
               <span className='skill-name'>Node JS</span>
             </li>
