@@ -1,10 +1,12 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   return (
     <div className='navbar'>
-      <div className='brand-logo'>Yağızhan Avcı</div>
+      <Link exact to='/' className='brand-logo'>
+        Yağızhan Avcı
+      </Link>
       <ul className='nav-menu'>
         <li>
           <NavLink exact to='/' className='' activeClassName='active'>

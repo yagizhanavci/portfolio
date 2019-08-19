@@ -78,8 +78,8 @@
     white 0%,
     white 0%,
     white 20%,
-    crimson 20%,
-    crimson 20.5%,
+    rgba(220, 20, 60, 0.7) 20%,
+    rgba(220, 20, 60, 1) 20.5%,
     coral 20.5%,
     coral 50%,
     coral 100%
@@ -103,8 +103,9 @@
   margin: auto auto auto 40px;
   font-family: 'Lobster', cursive;
   font-size: 40px;
-  pointer-events: none;
-  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  color: coral;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
 }
 
 .navbar .nav-menu {
@@ -267,7 +268,7 @@
 
 .timeline {
   position: relative;
-  margin: 80px auto;
+  margin: 100px auto;
   position: relative;
   display: grid;
   grid-template-columns: auto auto;
@@ -279,15 +280,28 @@
   content: '';
   position: absolute;
   width: 3px;
-  height: 120%;
+  height: 110%;
   background-color: black;
-  left: 22%;
+  left: 30%;
+  top: -5%;
 }
 
 .timeline-time {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
+  position: relative;
+}
+
+.timeline-time::after {
+  content: '';
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  right: -21%;
+  background-color: crimson;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 1);
 }
 
 .timeline-time h3 {
@@ -295,7 +309,7 @@
   background-color: crimson;
   border-radius: 20px;
   display: inline;
-  padding: 5px 15px;
+  padding: 5px 20px;
   align-self: center;
 }
 
@@ -307,10 +321,12 @@
   align-items: flex-start;
   background-color: rgba(255, 255, 255, 0.7);
   border-radius: 10px;
-  padding: 5px 20px;
+  padding: 5px 25px;
   position: relative;
   border: 1px solid crimson;
-  /* box-shadow will be added */
+  -webkit-box-shadow: 0px 10px 10px 0px rgba(46, 74, 117, 0.7);
+  -moz-box-shadow: 0px 10px 10px 0px rgba(46, 74, 117, 0.7);
+  box-shadow: 0px 10px 10px 0px rgba(46, 74, 117, 0.7);
 }
 
 .timeline-activity::before {
@@ -328,4 +344,8 @@
 
 .timeline-activity-title {
   color: crimson;
+}
+
+.timeline-activity-content {
+  font-size: 14px;
 }
