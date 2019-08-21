@@ -24,8 +24,8 @@ const Resume = () => {
               Graduated From High School
             </h3>
             <p className='timeline-activity-content'>
-              I have graduated from Izzet Baysal Anatolian High School at <br />{' '}
-              June 2014 with relatively good grade.
+              I have graduated from Izzet Baysal Anatolian High School at June
+              2014 with relatively good grade.
             </p>
           </div>
           <div className='timeline-time'>
@@ -36,8 +36,8 @@ const Resume = () => {
               Started University Education
             </h3>
             <p className='timeline-activity-content'>
-              Started my university education at Düzce University at <br />{' '}
-              September 2014. My major was Computer Science.
+              Started my university education at Düzce University at September
+              2014. My major was Computer Science.
             </p>
           </div>
           <div className='timeline-time'>
@@ -46,10 +46,9 @@ const Resume = () => {
           <div className='timeline-activity'>
             <h3 className='timeline-activity-title'>Started My First Intern</h3>
             <p className='timeline-activity-content'>
-              Started my first intern at Arçelik Company at July 2017. <br />
-              I have gained a lot of experience about business ethics and
-              <br />
-              morality thanks to being there.
+              Started my first intern at Arçelik Company at July 2017. I have
+              gained a lot of experience about business ethics and morality
+              thanks to being there.
             </p>
           </div>
           <div className='timeline-time'>
@@ -60,10 +59,10 @@ const Resume = () => {
               Started My Second Intern
             </h3>
             <p className='timeline-activity-content'>
-              Started my second intern at Ajans360 Advertising Agency <br />
-              And Web Design at June 2018. Being allowed entering that <br />
-              company contributed to me a lot on the subjects of <br />
-              web design, web development, advertising and marketing.
+              Started my second intern at Ajans360 Advertising Agency And Web
+              Design at June 2018. Being allowed entering that company
+              contributed to me a lot on the subjects of web design, web
+              development, advertising and marketing.
             </p>
           </div>
           <div className='timeline-time'>
@@ -74,8 +73,8 @@ const Resume = () => {
               Graduated From University
             </h3>
             <p className='timeline-activity-content'>
-              I have graduated from Düzce University with a grade of 2.88 <br />
-              out of 4.00. I have attended relatively good projects and events.
+              I have graduated from Düzce University with a grade of 2.88 out of
+              4.00. I have attended relatively good projects and events.
             </p>
           </div>
         </div>
