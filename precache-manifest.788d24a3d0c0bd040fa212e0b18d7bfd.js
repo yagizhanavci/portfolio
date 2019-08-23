@@ -48,12 +48,12 @@ self.__precacheManifest = [
     "url": "/portfolio/static/js/main.5e70f8de.chunk.js"
   },
   {
-    "revision": "4bced7c4c0d61d4f988629bb8ae80b8b",
-    "url": "/portfolio/static/media/fa-solid-900.4bced7c4.woff"
-  },
-  {
     "revision": "fe9d62e0d16a333a20e63c3e7595f82e",
     "url": "/portfolio/static/media/fa-brands-400.fe9d62e0.woff"
+  },
+  {
+    "revision": "4bced7c4c0d61d4f988629bb8ae80b8b",
+    "url": "/portfolio/static/media/fa-solid-900.4bced7c4.woff"
   },
   {
     "revision": "03783c5172ee1ad128c576bf88fac168",
