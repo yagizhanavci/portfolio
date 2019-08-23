@@ -61,9 +61,6 @@ const Navbar = () => {
             {languageWords[language].contact}
           </NavLink>
         </li>
-        <li>
-          <NavLink to='#'>{languageWords[language].downloadCv}</NavLink>
-        </li>
       </ul>
       <button className='navbar-language' onClick={setLanguage}>
         <img
