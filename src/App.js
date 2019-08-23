@@ -8,6 +8,7 @@ import Resume from './components/Resume';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import { LanguageProvider } from './contexts/LanguageContext';
+import Footer from './components/Footer';
 
 const App = () => {
   const { location } = useContext(__RouterContext);
@@ -28,11 +29,12 @@ const App = () => {
                 <Route exact path='/resume' component={Resume} />
                 <Route exact path='/projects' component={Projects} />
                 <Route exact path='/contact' component={Contact} />
-                <Redirect from='*' exact to='/' />
+                <Redirect from='/*' exact to='/' />
               </Switch>
             </animated.div>
           );
         })}
+        <Footer />
       </div>
     </LanguageProvider>
   );

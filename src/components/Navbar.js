@@ -20,7 +20,6 @@ const languageWords = {
     downloadCv: 'CV İNDİR',
   },
 };
-
 const Navbar = () => {
   const { language, toggleLanguage } = useContext(LanguageContext);
   const languageButtonRef = useRef(null);
