@@ -82,23 +82,21 @@ const Resume = () => {
   const { language } = useContext(LanguageContext);
   console.log(languageWords);
   return (
-    <div className='content'>
-      <div className='resume'>
-        <div className='timeline'>
-          {languageWords[language].map((activity, idx) => {
-            return (
-              <React.Fragment key={idx}>
-                <div className='timeline-time'>
-                  <h3>{activity.time}</h3>
-                </div>
-                <div className='timeline-activity'>
-                  <h3 className='timeline-activity-title'>{activity.title}</h3>
-                  <p className='timeline-activity-content'>{activity.text}</p>
-                </div>
-              </React.Fragment>
-            );
-          })}
-        </div>
+    <div className='resume'>
+      <div className='timeline'>
+        {languageWords[language].map((activity, idx) => {
+          return (
+            <React.Fragment key={idx}>
+              <div className='timeline-time'>
+                <h3>{activity.time}</h3>
+              </div>
+              <div className='timeline-activity'>
+                <h3 className='timeline-activity-title'>{activity.title}</h3>
+                <p className='timeline-activity-content'>{activity.text}</p>
+              </div>
+            </React.Fragment>
+          );
+        })}
       </div>
     </div>
   );
