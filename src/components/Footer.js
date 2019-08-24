@@ -9,14 +9,14 @@ function Footer() {
           target='_blank'
           href='https://github.com/Yagizhan14'
         >
-          <i class='fab fa-github' />
+          <i className='fab fa-github' />
         </a>
         <a
           className='social-media-links'
           target='_blank'
           href='https://www.linkedin.com/in/ya%C4%9F%C4%B1zhan-avc%C4%B1-b06556181/'
         >
-          <i class='fab fa-linkedin' />
+          <i className='fab fa-linkedin' />
         </a>
       </div>
     </footer>
