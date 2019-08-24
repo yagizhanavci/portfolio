@@ -65,7 +65,7 @@ const Navbar = () => {
       <button className='navbar-language' onClick={setLanguage}>
         <img
           className='navbar-language-img'
-          alt={`${language}-flag`}
+          alt={language === 'turkish' ? 'english-flag' : 'turkish-flag'}
           ref={languageButtonRef}
         />
       </button>

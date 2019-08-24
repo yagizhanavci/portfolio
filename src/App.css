@@ -167,8 +167,6 @@
 .navbar-language {
   border: none;
   cursor: pointer;
-  width: 50px;
-  height: 50px;
   align-self: center;
   margin: 0;
   padding: 0;
@@ -178,8 +176,8 @@
 }
 
 .navbar-language-img {
-  width: 100%;
-  height: 100%;
+  width: 40px;
+  height: 40px;
   margin: 0;
   padding: 0;
 }
@@ -288,12 +286,12 @@
 
 .timeline {
   position: relative;
-  margin: 100px auto;
+  margin: 125px auto;
   position: relative;
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 200px 500px;
   grid-template-rows: auto;
-  grid-gap: 50px 70px;
+  grid-gap: 50px 80px;
 }
 
 .timeline::before {
@@ -319,7 +317,7 @@
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  right: -24%;
+  right: -21.5%;
   background-color: crimson;
   box-shadow: 0 0 0 3px rgba(255, 255, 255, 1);
 }
