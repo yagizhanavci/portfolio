@@ -1,17 +1,18 @@
 {
-  "main.css": "/portfolio/static/css/main.55aa8ee2.chunk.css",
-  "main.js": "/portfolio/static/js/main.fde7ba70.chunk.js",
-  "main.js.map": "/portfolio/static/js/main.fde7ba70.chunk.js.map",
+  "main.css": "/portfolio/static/css/main.cb0482df.chunk.css",
+  "main.js": "/portfolio/static/js/main.095d3588.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.095d3588.chunk.js.map",
   "runtime~main.js": "/portfolio/static/js/runtime~main.53ebc025.js",
   "runtime~main.js.map": "/portfolio/static/js/runtime~main.53ebc025.js.map",
-  "static/css/2.522f9cfc.chunk.css": "/portfolio/static/css/2.522f9cfc.chunk.css",
-  "static/js/2.a4a07348.chunk.js": "/portfolio/static/js/2.a4a07348.chunk.js",
-  "static/js/2.a4a07348.chunk.js.map": "/portfolio/static/js/2.a4a07348.chunk.js.map",
+  "static/css/2.2cc60755.chunk.css": "/portfolio/static/css/2.2cc60755.chunk.css",
+  "static/js/2.bca5f92f.chunk.js": "/portfolio/static/js/2.bca5f92f.chunk.js",
+  "static/js/2.bca5f92f.chunk.js.map": "/portfolio/static/js/2.bca5f92f.chunk.js.map",
   "index.html": "/portfolio/index.html",
-  "precache-manifest.a9086e150000017c637bb1f9847f6859.js": "/portfolio/precache-manifest.a9086e150000017c637bb1f9847f6859.js",
+  "precache-manifest.2f3fc48ea06266ec910ffaef1412b27b.js": "/portfolio/precache-manifest.2f3fc48ea06266ec910ffaef1412b27b.js",
   "service-worker.js": "/portfolio/service-worker.js",
-  "static/css/2.522f9cfc.chunk.css.map": "/portfolio/static/css/2.522f9cfc.chunk.css.map",
-  "static/css/main.55aa8ee2.chunk.css.map": "/portfolio/static/css/main.55aa8ee2.chunk.css.map",
+  "static/css/2.2cc60755.chunk.css.map": "/portfolio/static/css/2.2cc60755.chunk.css.map",
+  "static/css/main.cb0482df.chunk.css.map": "/portfolio/static/css/main.cb0482df.chunk.css.map",
   "static/media/Avatar.png": "/portfolio/static/media/Avatar.765454f0.png",
-  "static/media/all.css": "/portfolio/static/media/fa-solid-900.ef3df984.eot"
+  "static/media/all.css": "/portfolio/static/media/fa-solid-900.ef3df984.eot",
+  "static/media/hangman-project-img.png": "/portfolio/static/media/hangman-project-img.a969bdd7.png"
 }

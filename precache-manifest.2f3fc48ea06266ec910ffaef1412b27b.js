@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "b5cf8ae26748570d8fb95a47f46b69e1",
-    "url": "/portfolio/static/media/fa-solid-900.b5cf8ae2.woff2"
+    "revision": "7559b3774a0625e8ca6c0160f8f6cfd8",
+    "url": "/portfolio/static/media/fa-brands-400.7559b377.woff2"
   },
   {
-    "revision": "fde7ba705ac50f394b8c",
-    "url": "/portfolio/static/css/main.55aa8ee2.chunk.css"
+    "revision": "095d3588fd9e888c948b",
+    "url": "/portfolio/static/css/main.cb0482df.chunk.css"
   },
   {
     "revision": "53ebc025fca807d4dbea",
@@ -16,12 +16,16 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/fa-solid-900.b557f56e.svg"
   },
   {
-    "revision": "a4a073483cbd298201fa",
-    "url": "/portfolio/static/js/2.a4a07348.chunk.js"
+    "revision": "bca5f92f98e670ce82d8",
+    "url": "/portfolio/static/js/2.bca5f92f.chunk.js"
   },
   {
     "revision": "765454f0a23e058a1f051a9c9176715c",
     "url": "/portfolio/static/media/Avatar.765454f0.png"
+  },
+  {
+    "revision": "a969bdd7e3e694236682b15900ab0344",
+    "url": "/portfolio/static/media/hangman-project-img.a969bdd7.png"
   },
   {
     "revision": "e07d9e40b26048d9abe2ef966cd6e263",
@@ -40,12 +44,12 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/fa-regular-400.59215032.ttf"
   },
   {
-    "revision": "7559b3774a0625e8ca6c0160f8f6cfd8",
-    "url": "/portfolio/static/media/fa-brands-400.7559b377.woff2"
+    "revision": "095d3588fd9e888c948b",
+    "url": "/portfolio/static/js/main.095d3588.chunk.js"
   },
   {
-    "revision": "fde7ba705ac50f394b8c",
-    "url": "/portfolio/static/js/main.fde7ba70.chunk.js"
+    "revision": "b5cf8ae26748570d8fb95a47f46b69e1",
+    "url": "/portfolio/static/media/fa-solid-900.b5cf8ae2.woff2"
   },
   {
     "revision": "fe9d62e0d16a333a20e63c3e7595f82e",
@@ -56,12 +60,12 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/fa-solid-900.4bced7c4.woff"
   },
   {
-    "revision": "ed2b8bf117160466ba6220a8f1da54a4",
-    "url": "/portfolio/static/media/fa-brands-400.ed2b8bf1.ttf"
-  },
-  {
     "revision": "03783c5172ee1ad128c576bf88fac168",
     "url": "/portfolio/static/media/fa-brands-400.03783c51.eot"
+  },
+  {
+    "revision": "ed2b8bf117160466ba6220a8f1da54a4",
+    "url": "/portfolio/static/media/fa-brands-400.ed2b8bf1.ttf"
   },
   {
     "revision": "8fdea4e89ac405d9f8db327adb331d8d",
@@ -80,11 +84,11 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/fa-brands-400.073c2f3c.svg"
   },
   {
-    "revision": "a4a073483cbd298201fa",
-    "url": "/portfolio/static/css/2.522f9cfc.chunk.css"
+    "revision": "bca5f92f98e670ce82d8",
+    "url": "/portfolio/static/css/2.2cc60755.chunk.css"
   },
   {
-    "revision": "e923b222cf56b53f89ca092eba6e3c55",
+    "revision": "8b245f86bdc934cab51997ac14909e62",
     "url": "/portfolio/index.html"
   }
 ];
