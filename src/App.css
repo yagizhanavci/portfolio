@@ -511,29 +511,39 @@ body {
 @media (max-width: 400px) {
   .timeline {
     margin: 80px auto 100px auto;
-    grid-template-columns: 60px 250px;
+    grid-template-columns: 70px 230px;
     grid-gap: 20px 40px;
   }
   .timeline::before {
     height: 105%;
     top: -20px;
-    left: 23%;
+    left: 25%;
   }
   .timeline-time {
     text-align: center;
     justify-content: center;
   }
   .timeline-time::after {
-    right: -44%;
+    right: -30%;
     width: 10px !important;
     height: 10px !important;
   }
   .timeline-time h3 {
-    font-size: 10px;
+    padding: 5px 10px;
+    font-size: 12px;
   }
   .timeline-activity::before {
     width: 12px;
     height: 12px;
+  }
+  .timeline-activity {
+    padding: 5px 15px;
+  }
+  .timeline-activity-title {
+    font-size: 12px;
+  }
+  .timeline-activity-content {
+    font-size: 10px;
   }
 }
 
@@ -649,8 +659,8 @@ body {
   align-self: center;
   margin: 150px auto 0 auto;
   padding: 10px;
-  min-width: 400px;
-  min-height: 400px;
+  width: 400px;
+  height: 550px;
   background-color: rgba(220, 20, 60, 0.8);
   border-radius: 5px;
   transition: transform 0.3s ease;
@@ -788,6 +798,20 @@ body {
 
 .contact .contact-form button:hover::before {
   width: 80%;
+}
+
+@media (max-width: 400px) {
+  .contact-form {
+    margin: 100px auto 0 auto !important;
+    width: 300px !important;
+    height: 580px;
+  }
+  .contact-form button::before {
+    left: 10px !important;
+  }
+  .contact-form button:hover::before {
+    width: 90%;
+  }
 }
 
 .Footer {
