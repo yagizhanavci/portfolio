@@ -508,7 +508,7 @@ body {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 476px) {
   .timeline {
     margin: 80px auto 100px auto;
     grid-template-columns: 70px 230px;
@@ -640,7 +640,7 @@ body {
   margin: 5px 5px auto 0;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 476px) {
   .projects-container {
     grid-template-columns: 260px;
     grid-template-rows: auto;
@@ -807,9 +807,9 @@ body {
   width: 80%;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 476px) {
   .contact-form {
-    margin: 100px auto 0 auto !important;
+    margin: 100px auto 70px auto !important;
     width: 320px !important;
     height: 560px;
   }
