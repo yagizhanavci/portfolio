@@ -3,8 +3,8 @@ import avatar from '../images/Avatar.png';
 
 const Home = () => {
   return (
-    <div className='content'>
-      <div className='home'>
+    <div className='home'>
+      <div className='home-container'>
         <img className='avatar-img' src={avatar} alt='avatar' />
         <div className='about-me'>
           <h1 className='about-me-title'>

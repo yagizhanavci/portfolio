@@ -80,7 +80,6 @@ const languageWords = {
 
 const Resume = () => {
   const { language } = useContext(LanguageContext);
-  console.log(languageWords);
   return (
     <div className='resume'>
       <div className='timeline'>
