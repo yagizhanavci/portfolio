@@ -640,6 +640,13 @@ body {
   margin: 5px 5px auto 0;
 }
 
+@media (max-width: 400px) {
+  .projects-container {
+    grid-template-columns: 260px;
+    grid-template-rows: auto;
+  }
+}
+
 /* Contact styles */
 
 .contact {
@@ -803,14 +810,17 @@ body {
 @media (max-width: 400px) {
   .contact-form {
     margin: 100px auto 0 auto !important;
-    width: 300px !important;
-    height: 580px;
+    width: 320px !important;
+    height: 560px;
+  }
+  .contact-form h2 {
+    font-size: 20px;
   }
   .contact-form button::before {
-    left: 10px !important;
+    left: 8px !important;
   }
   .contact-form button:hover::before {
-    width: 90%;
+    width: 90% !important;
   }
 }
 

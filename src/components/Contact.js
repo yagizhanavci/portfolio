@@ -28,6 +28,8 @@ const Contact = () => {
   });
   const handleOnSubmit = e => {
     e.preventDefault();
+    alert('Mesajınız iletildi.');
+    setMailinfo({ name: '', email: '', message: '' });
   };
   const handleOnChange = e => {
     setMailinfo({ [e.target.name]: e.target.value });
