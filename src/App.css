@@ -8,6 +8,18 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100% !important;
+  height: 100% !important;
+}
+
 .App {
   margin: 0;
   padding: 0;
@@ -198,7 +210,7 @@
   }
   .home .home-container {
     grid-template-columns: 300px 500px !important;
-    margin: 40px auto !important;
+    margin: 200px auto 0 auto !important;
   }
   .home .avatar-img {
     width: 300px;
@@ -224,19 +236,36 @@
 
 @media (max-width: 785px) {
   .home .home-container {
-    grid-template-columns: 500px !important;
-    grid-template-rows: 300px 300px !important;
+    margin: 100px auto 0 auto !important;
+    grid-template-columns: 700px !important;
+    grid-template-rows: 320px 320px !important;
+  }
+  .navbar {
+    display: none;
   }
 }
 
 @media (max-width: 476px) {
   .home .home-container {
-    grid-template-columns: 400px !important;
-    grid-template-rows: 200px 200px;
+    grid-template-columns: 300px !important;
+    grid-template-rows: 140px 200px;
+  }
+  .home .avatar-img {
+    width: 100%;
+    height: 100%;
+  }
+  .home .about-me-title {
+    font-size: 25px;
+  }
+  .home .about-me-content {
+    font-size: 15px;
+  }
+  .home .about-me .my-skills li {
+    margin-right: 10px !important;
   }
   .home .about-me .my-skills .skill-name {
     font-weight: 700;
-    font-size: 15px;
+    font-size: 12px;
   }
   .home .about-me .my-skills li i {
     font-size: 35px;
@@ -249,12 +278,12 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  min-width: 100vw;
-  min-height: 100vh;
+  width: 100%;
+  height: 100%;
 }
 
 .home-container {
-  margin: 50 auto 0 auto;
+  margin: 170px auto 0 auto;
   display: grid;
   grid-template-columns: 500px 600px;
   grid-template-rows: auto;
@@ -296,7 +325,7 @@
 .avatar-img {
   width: 100%;
   height: 120%;
-  margin: -10% auto auto auto;
+  margin: -5% auto auto auto;
 }
 
 .about-me {
@@ -437,6 +466,45 @@
 .timeline-activity-content {
   font-size: 14px;
   max-width: 450px;
+}
+
+@media (max-width: 800px) {
+  .timeline {
+    grid-template-columns: 175px 450px;
+  }
+  .timeline::before {
+    height: 105%;
+    left: 29.8%;
+  }
+  .timeline-time h3 {
+    font-size: 14px;
+  }
+  .timeline-time::after {
+    right: -25%;
+  }
+}
+
+@media (max-width: 600px) {
+  .timeline {
+    grid-template-columns: 145px 350px;
+    grid-gap: 30px 50px;
+    margin: 100px auto 50px auto;
+  }
+  .timeline::before {
+    left: 30%;
+  }
+  .timeline-time::after {
+    right: -19.5%;
+  }
+  .timeline-time h3 {
+    font-size: 12px;
+  }
+  .timeline-activity-title {
+    font-size: 14px;
+  }
+  .timeline-activity-content {
+    font-size: 12px;
+  }
 }
 
 /* My Projects Styles */
