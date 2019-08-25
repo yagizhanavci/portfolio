@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/fa-brands-400.7559b377.woff2"
   },
   {
-    "revision": "eaad352faaa175a22675",
-    "url": "/portfolio/static/css/main.4229df70.chunk.css"
+    "revision": "bffdf44b8a92f7c92a8a",
+    "url": "/portfolio/static/css/main.292f66b7.chunk.css"
   },
   {
     "revision": "53ebc025fca807d4dbea",
@@ -44,8 +44,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/fa-regular-400.59215032.ttf"
   },
   {
-    "revision": "eaad352faaa175a22675",
-    "url": "/portfolio/static/js/main.eaad352f.chunk.js"
+    "revision": "bffdf44b8a92f7c92a8a",
+    "url": "/portfolio/static/js/main.bffdf44b.chunk.js"
   },
   {
     "revision": "b5cf8ae26748570d8fb95a47f46b69e1",
@@ -60,24 +60,24 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/fa-solid-900.4bced7c4.woff"
   },
   {
-    "revision": "ed2b8bf117160466ba6220a8f1da54a4",
-    "url": "/portfolio/static/media/fa-brands-400.ed2b8bf1.ttf"
-  },
-  {
     "revision": "03783c5172ee1ad128c576bf88fac168",
     "url": "/portfolio/static/media/fa-brands-400.03783c51.eot"
+  },
+  {
+    "revision": "ed2b8bf117160466ba6220a8f1da54a4",
+    "url": "/portfolio/static/media/fa-brands-400.ed2b8bf1.ttf"
   },
   {
     "revision": "8fdea4e89ac405d9f8db327adb331d8d",
     "url": "/portfolio/static/media/fa-regular-400.8fdea4e8.svg"
   },
   {
-    "revision": "ef3df98419d143d9617fe163bf4edc0b",
-    "url": "/portfolio/static/media/fa-solid-900.ef3df984.eot"
-  },
-  {
     "revision": "acf50f59802f20d8b45220eaae532a1c",
     "url": "/portfolio/static/media/fa-solid-900.acf50f59.ttf"
+  },
+  {
+    "revision": "ef3df98419d143d9617fe163bf4edc0b",
+    "url": "/portfolio/static/media/fa-solid-900.ef3df984.eot"
   },
   {
     "revision": "073c2f3ce60eaf69cc2767ef3d989078",
@@ -88,7 +88,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/css/2.2cc60755.chunk.css"
   },
   {
-    "revision": "2572baeddd7e100d52c7a27178db10c5",
+    "revision": "b7e36e62edcfb15e4b3198dd08fc5f77",
     "url": "/portfolio/index.html"
   }
 ];
