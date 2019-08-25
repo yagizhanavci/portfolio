@@ -247,6 +247,7 @@ body {
 
 @media (max-width: 476px) {
   .home .home-container {
+    margin: 70px auto !important;
     grid-template-columns: 300px !important;
     grid-template-rows: 140px 200px;
   }
@@ -504,6 +505,35 @@ body {
   }
   .timeline-activity-content {
     font-size: 12px;
+  }
+}
+
+@media (max-width: 400px) {
+  .timeline {
+    margin: 80px auto 100px auto;
+    grid-template-columns: 60px 250px;
+    grid-gap: 20px 40px;
+  }
+  .timeline::before {
+    height: 105%;
+    top: -20px;
+    left: 23%;
+  }
+  .timeline-time {
+    text-align: center;
+    justify-content: center;
+  }
+  .timeline-time::after {
+    right: -44%;
+    width: 10px !important;
+    height: 10px !important;
+  }
+  .timeline-time h3 {
+    font-size: 10px;
+  }
+  .timeline-activity::before {
+    width: 12px;
+    height: 12px;
   }
 }
 
