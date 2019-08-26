@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/fa-brands-400.7559b377.woff2"
   },
   {
-    "revision": "7b11bcf774c7f8517640",
-    "url": "/portfolio/static/css/main.b9b417de.chunk.css"
+    "revision": "f95c9a78d7144280958d",
+    "url": "/portfolio/static/css/main.5ca26a26.chunk.css"
   },
   {
     "revision": "53ebc025fca807d4dbea",
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/fa-solid-900.b557f56e.svg"
   },
   {
-    "revision": "524cf9291de9b159c0df",
-    "url": "/portfolio/static/js/2.524cf929.chunk.js"
+    "revision": "a62f9cbaff18a67d7cb8",
+    "url": "/portfolio/static/js/2.a62f9cba.chunk.js"
   },
   {
     "revision": "765454f0a23e058a1f051a9c9176715c",
@@ -44,8 +44,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/fa-regular-400.59215032.ttf"
   },
   {
-    "revision": "7b11bcf774c7f8517640",
-    "url": "/portfolio/static/js/main.7b11bcf7.chunk.js"
+    "revision": "f95c9a78d7144280958d",
+    "url": "/portfolio/static/js/main.f95c9a78.chunk.js"
   },
   {
     "revision": "b5cf8ae26748570d8fb95a47f46b69e1",
@@ -60,12 +60,12 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/fa-solid-900.4bced7c4.woff"
   },
   {
-    "revision": "ed2b8bf117160466ba6220a8f1da54a4",
-    "url": "/portfolio/static/media/fa-brands-400.ed2b8bf1.ttf"
-  },
-  {
     "revision": "03783c5172ee1ad128c576bf88fac168",
     "url": "/portfolio/static/media/fa-brands-400.03783c51.eot"
+  },
+  {
+    "revision": "ed2b8bf117160466ba6220a8f1da54a4",
+    "url": "/portfolio/static/media/fa-brands-400.ed2b8bf1.ttf"
   },
   {
     "revision": "8fdea4e89ac405d9f8db327adb331d8d",
@@ -84,11 +84,11 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/fa-brands-400.073c2f3c.svg"
   },
   {
-    "revision": "524cf9291de9b159c0df",
+    "revision": "a62f9cbaff18a67d7cb8",
     "url": "/portfolio/static/css/2.2cc60755.chunk.css"
   },
   {
-    "revision": "20ed437e39382aed627fc15f36b7ffc5",
+    "revision": "d436b2eaba78d11c347aac8a1b36a18a",
     "url": "/portfolio/index.html"
   }
 ];
