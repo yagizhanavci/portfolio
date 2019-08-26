@@ -16,8 +16,8 @@ body {
 
 body {
   overflow-x: hidden;
-  width: 100% !important;
-  height: 100% !important;
+  width: 100%;
+  height: 100%;
 }
 
 .App {
@@ -194,6 +194,143 @@ body {
   padding: 0;
 }
 
+.mobile-navbar {
+  position: absolute;
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  width: 100%;
+  padding: 10px;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+}
+
+.mobile-brand-logo {
+  color: crimson;
+  text-decoration: none;
+  align-self: center;
+  margin: auto auto auto 40px;
+  font-family: 'Lobster';
+  font-size: 30px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.mobile-navbar .languagebutton-and-toggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+  align-self: center;
+}
+
+.mobile-navbar .navbar-language {
+  margin-right: 20px;
+}
+
+.mobile-navbar .toggle-button {
+  border-radius: 50%;
+  background-color: crimson;
+  padding: 5px;
+  display: block;
+  align-self: center;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
+
+.mobile-navbar .toggle-button i {
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0 0 0 5px;
+  color: #fff;
+}
+
+.mobile-nav-menu-container .mobile-nav-menu-close-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  cursor: pointer;
+}
+
+.mobile-nav-menu-container .mobile-nav-menu-close-button i {
+  font-size: 30px;
+  line-height: 30px;
+  color: coral;
+}
+
+.mobile-nav-menu-container {
+  display: none;
+  position: absolute;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  right: 0;
+  top: 0;
+  width: 80%;
+  height: 100vh;
+  z-index: 100;
+  transform: translateX(100%);
+  background-color: crimson;
+  transition: transform 0.3s ease-in-out;
+}
+
+.mobile-nav-menu-container.active {
+  transform: translateX(0);
+}
+
+.mobile-nav-menu-container .mobile-nav-menu {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile-nav-menu-container .mobile-nav-menu li {
+  margin: 5px auto;
+}
+
+.mobile-nav-menu-container .mobile-nav-menu li a {
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700;
+  padding: 5px 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.mobile-nav-menu-container .mobile-nav-menu li a:focus {
+  outline: none;
+}
+
+.mobile-nav-menu-container .mobile-nav-menu li a::before {
+  content: '';
+  width: 0;
+  height: 200%;
+  position: absolute;
+  top: -30px;
+  left: 5px;
+  transform-origin: left;
+  border-radius: 5px;
+  background-color: coral;
+  transition: width 0.3s linear;
+  z-index: -1;
+  transform: rotate(8deg);
+}
+
+.mobile-nav-menu-container
+  .mobile-nav-menu
+  li
+  a.mobile-nav-link-active::before {
+  width: 90%;
+}
+
 @media (max-width: 978px) {
   .App {
     background: coral;
@@ -234,7 +371,7 @@ body {
 
 /* Mobile version */
 
-@media (max-width: 785px) {
+@media (max-width: 850px) {
   .home .home-container {
     margin: 100px auto 0 auto !important;
     grid-template-columns: 700px !important;
@@ -242,6 +379,12 @@ body {
   }
   .navbar {
     display: none;
+  }
+  .mobile-navbar {
+    display: flex;
+  }
+  .mobile-nav-menu-container {
+    display: flex;
   }
 }
 
@@ -271,6 +414,18 @@ body {
   .home .about-me .my-skills li i {
     font-size: 35px;
     line-height: 35px;
+  }
+  .mobile-brand-logo {
+    font-size: 25px;
+    margin-left: 20px;
+  }
+  .mobile-navbar .languagebutton-and-toggle {
+    margin-right: 20px;
+  }
+  .mobile-nav-menu-container .mobile-nav-menu {
+  }
+  .Footer .social-media {
+    margin-right: 20px !important;
   }
 }
 
