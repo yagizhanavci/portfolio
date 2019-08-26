@@ -28,6 +28,7 @@ body {
   position: relative;
   font-family: 'Poppins', sans-serif;
   background: rgba(246, 41, 12, 1);
+  overflow-x: hidden;
   background: -moz-linear-gradient(
     -45deg,
     white 0%,
