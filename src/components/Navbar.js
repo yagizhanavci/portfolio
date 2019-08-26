@@ -1,4 +1,4 @@
-import React, { useContext, useRef, useEffect, useState } from 'react';
+import React, { useContext, useRef, useEffect } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { LanguageContext } from '../contexts/LanguageContext';
 import TurkishFlag from '../images/turkish.png';
@@ -10,18 +10,15 @@ const languageWords = {
     resume: 'Resume',
     projects: 'Projects',
     contact: 'Contact',
-    downloadCv: 'Download CV',
   },
   turkish: {
     home: 'Anasayfa',
     resume: 'ÖZGEÇMİŞ',
     projects: 'PROJELERİM',
     contact: 'İLETİŞİM',
-    downloadCv: 'CV İNDİR',
   },
 };
 const Navbar = () => {
-  const [mobileNavbarActive, setMobileNavbarActive] = useState(false);
   const { language, toggleLanguage } = useContext(LanguageContext);
   const languageButtonRef = useRef(null);
   const mobilelanguageButtonRef = useRef(null);
@@ -69,6 +66,10 @@ const Navbar = () => {
         >
           <i className='fas fa-times'></i>
         </div>
+        <div
+          className='mobile-nav-menu-overlay'
+          onClick={() => mobileNavMenuRef.current.classList.remove('active')}
+        />
         <ul className='mobile-nav-menu'>
           <li>
             <NavLink
