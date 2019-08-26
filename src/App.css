@@ -403,7 +403,7 @@ body {
 
 @media (max-width: 476px) {
   .home .home-container {
-    margin: 70px auto !important;
+    margin: 70px auto 110px auto !important;
     grid-template-columns: 300px !important;
     grid-template-rows: 140px 200px;
   }
@@ -434,8 +434,6 @@ body {
   }
   .mobile-navbar .languagebutton-and-toggle {
     margin-right: 20px;
-  }
-  .mobile-nav-menu-container .mobile-nav-menu {
   }
   .Footer .social-media {
     margin-right: 20px !important;
@@ -678,7 +676,7 @@ body {
 
 @media (max-width: 476px) {
   .timeline {
-    margin: 80px auto 100px auto;
+    margin: 80px auto;
     grid-template-columns: 70px 230px;
     grid-gap: 20px 40px;
   }

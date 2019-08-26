@@ -1,7 +1,16 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import avatar from '../images/Avatar.png';
+import { LanguageContext } from '../contexts/LanguageContext';
+
+const languageWords = {
+  turkish:
+    'Ben frontend ve backend geliştirme konularında çalışan sürekli öğrenmeye tutkulu bir full stack geliştiriciyim. Aşağıda belirtmiş olduğum teknolojilerde çalışmakta yetenekliyim. Projelerimi gözden geçirmek ve benimle iletişime geçmekten çekinmeyin.',
+  english:
+    "I'm a full stack developer specialised in frontend and backend development with passion to learn constantly. I have the skills to work with technologies shown below. Also feel free to check out my projects and contact me.",
+};
 
 const Home = () => {
+  const { language } = useContext(LanguageContext);
   return (
     <div className='home'>
       <div className='home-container'>
@@ -11,10 +20,8 @@ const Home = () => {
             Yağızhan Avcı <br />{' '}
             <span className='anim-typewriter'>Full Stack Web Developer</span>
           </h1>
-          <p className='about-me-content'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus at
-            modi accusantium error voluptatem maxime quas? At alias est
-            adipisci.
+          <p className='about-me-content' style={{ whiteSpace: 'normal' }}>
+            {languageWords[language]}
           </p>
           <ul className='my-skills'>
             <li>
