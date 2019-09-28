@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/fa-brands-400.7559b377.woff2"
   },
   {
-    "revision": "5cf9edb8deddb188daa0",
-    "url": "/portfolio/static/css/main.9e81745b.chunk.css"
+    "revision": "45540f4ad826f6bc8bba",
+    "url": "/portfolio/static/css/main.c04ce8c6.chunk.css"
   },
   {
     "revision": "53ebc025fca807d4dbea",
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/fa-solid-900.b557f56e.svg"
   },
   {
-    "revision": "3305a9e7e662869f7081",
-    "url": "/portfolio/static/js/2.3305a9e7.chunk.js"
+    "revision": "b041d3f14bd2590c00dd",
+    "url": "/portfolio/static/js/2.b041d3f1.chunk.js"
   },
   {
     "revision": "765454f0a23e058a1f051a9c9176715c",
@@ -44,8 +44,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/fa-regular-400.59215032.ttf"
   },
   {
-    "revision": "5cf9edb8deddb188daa0",
-    "url": "/portfolio/static/js/main.5cf9edb8.chunk.js"
+    "revision": "45540f4ad826f6bc8bba",
+    "url": "/portfolio/static/js/main.45540f4a.chunk.js"
   },
   {
     "revision": "b5cf8ae26748570d8fb95a47f46b69e1",
@@ -84,11 +84,11 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/fa-brands-400.073c2f3c.svg"
   },
   {
-    "revision": "3305a9e7e662869f7081",
-    "url": "/portfolio/static/css/2.2cc60755.chunk.css"
+    "revision": "b041d3f14bd2590c00dd",
+    "url": "/portfolio/static/css/2.4289134f.chunk.css"
   },
   {
-    "revision": "bb993a4a45ef9d688878bbfe0fd477d8",
+    "revision": "cef784b3e9c3b6d36d284e90dc91173b",
     "url": "/portfolio/index.html"
   }
 ];
