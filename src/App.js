@@ -26,36 +26,16 @@ const App = () => {
           return (
             <animated.div key={key} style={props}>
               <Switch location={item}>
+                <Route exact path='/' component={Home} />
+                <Route exact path='/resume' component={Resume} />
+                <Route exact path='/projects' component={Projects} />
+                <Route exact path='/contact' component={Contact} />
                 <Route
                   exact
-                  path={process.env.PUBLIC_URL + '/'}
-                  component={Home}
-                />
-                <Route
-                  exact
-                  path={process.env.PUBLIC_URL + '/resume'}
-                  component={Resume}
-                />
-                <Route
-                  exact
-                  path={process.env.PUBLIC_URL + '/projects'}
-                  component={Projects}
-                />
-                <Route
-                  exact
-                  path={process.env.PUBLIC_URL + '/contact'}
-                  component={Contact}
-                />
-                <Route
-                  exact
-                  path={process.env.PUBLIC_URL + '/mercedes-project'}
+                  path='/mercedes-project'
                   component={MercedesProject}
                 />
-                <Redirect
-                  from={process.env.PUBLIC_URL + '/*'}
-                  exact
-                  to={process.env.PUBLIC_URL + '/'}
-                />
+                <Redirect from='/*' exact to='/' />
               </Switch>
             </animated.div>
           );
