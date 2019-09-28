@@ -166,6 +166,16 @@ const Navbar = () => {
               {languageWords[language].contact}
             </NavLink>
           </li>
+          <li>
+            <NavLink
+              exact
+              to={process.env.PUBLIC_URL + '/mercedes-project'}
+              className=''
+              activeClassName='active'
+            >
+              Mercedes
+            </NavLink>
+          </li>
         </ul>
         <button className='navbar-language' onClick={setLanguage}>
           <img
