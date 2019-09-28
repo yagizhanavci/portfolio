@@ -40,7 +40,11 @@ const Navbar = () => {
   const mobileNavbar = (
     <>
       <div className='mobile-navbar'>
-        <Link exact to='/' className='mobile-brand-logo'>
+        <Link
+          exact
+          to={process.env.PUBLIC_URL + '/'}
+          className='mobile-brand-logo'
+        >
           Yağızhan Avcı
         </Link>
         <div className='languagebutton-and-toggle'>
@@ -74,7 +78,7 @@ const Navbar = () => {
           <li>
             <NavLink
               exact
-              to='/'
+              to={process.env.PUBLIC_URL + '/'}
               className='mobile-nav-link'
               activeClassName='mobile-nav-link-active'
             >
@@ -84,7 +88,7 @@ const Navbar = () => {
           <li>
             <NavLink
               exact
-              to='/resume'
+              to={process.env.PUBLIC_URL + '/resume'}
               className='mobile-nav-link'
               activeClassName='mobile-nav-link-active'
             >
@@ -94,7 +98,7 @@ const Navbar = () => {
           <li>
             <NavLink
               exact
-              to='/projects'
+              to={process.env.PUBLIC_URL + '/projects'}
               className='mobile-nav-link'
               activeClassName='mobile-nav-link-active'
             >
@@ -104,7 +108,7 @@ const Navbar = () => {
           <li>
             <NavLink
               exact
-              to='/contact'
+              to={process.env.PUBLIC_URL + '/projects'}
               className='mobile-nav-link'
               activeClassName='mobile-nav-link-active'
             >
@@ -118,27 +122,47 @@ const Navbar = () => {
   return (
     <>
       <div className='navbar'>
-        <Link exact to='/' className='brand-logo'>
+        <Link exact to={process.env.PUBLIC_URL + '/'} className='brand-logo'>
           Yağızhan Avcı
         </Link>
         <ul className='nav-menu'>
           <li>
-            <NavLink exact to='/' className='' activeClassName='active'>
+            <NavLink
+              exact
+              to={process.env.PUBLIC_URL + '/'}
+              className=''
+              activeClassName='active'
+            >
               {languageWords[language].home}
             </NavLink>
           </li>
           <li>
-            <NavLink exact to='/resume' className='' activeClassName='active'>
+            <NavLink
+              exact
+              to={process.env.PUBLIC_URL + '/resume'}
+              className=''
+              activeClassName='active'
+            >
               {languageWords[language].resume}
             </NavLink>
           </li>
           <li>
-            <NavLink exact to='/projects' className='' activeClassName='active'>
+            <NavLink
+              exact
+              to={process.env.PUBLIC_URL + '/projects'}
+              className=''
+              activeClassName='active'
+            >
               {languageWords[language].projects}
             </NavLink>
           </li>
           <li>
-            <NavLink exact to='/contact' className='' activeClassName='active'>
+            <NavLink
+              exact
+              to={process.env.PUBLIC_URL + '/contact'}
+              className=''
+              activeClassName='active'
+            >
               {languageWords[language].contact}
             </NavLink>
           </li>
