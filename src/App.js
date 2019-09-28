@@ -7,6 +7,7 @@ import Home from './components/Home';
 import Resume from './components/Resume';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import MercedesProject from './components/MercedesProject';
 import { LanguageProvider } from './contexts/LanguageContext';
 import Footer from './components/Footer';
 
@@ -29,6 +30,11 @@ const App = () => {
                 <Route exact path='/resume' component={Resume} />
                 <Route exact path='/projects' component={Projects} />
                 <Route exact path='/contact' component={Contact} />
+                <Route
+                  exact
+                  path='/mercedes-project'
+                  component={MercedesProject}
+                />
                 <Redirect from='/*' exact to='/' />
               </Switch>
             </animated.div>
